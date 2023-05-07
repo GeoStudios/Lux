@@ -10,7 +10,7 @@ function lux:CreateNavBtn(Name, Id)
     btn.innerText = Name
     btn:setAttribute("class", "navBtn")
     btn:setAttribute("id", id)
-    return id
+    return btn
 end
 
 function lux:CreateMenuBtn(Name, Id)
@@ -19,5 +19,5 @@ function lux:CreateMenuBtn(Name, Id)
     btn.innerText = Name
     btn:setAttribute("class", "text_label")
     btn:setAttribute("id", id)
-    return id
+    return btn
 end

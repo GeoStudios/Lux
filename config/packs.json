@@ -1,6 +1,8 @@
 {
     "packs":[
-        { "folder": "test", "type": "lua" },
-        { "folder": "test", "type": "js" }
+        { "folder": "testing", "type": "js" },
+        { "folder": "testing", "type": "lua" },
+        { "folder": "testing", "type": "go" }
+
     ]
 }
