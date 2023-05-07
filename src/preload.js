@@ -20,12 +20,5 @@ window.getFilePath = getFilePath
 window.apiVer = "1.0"
 window.addEventListener("DOMContentLoaded", ()=>{
     require(filepath("../plugins/Super/pack.js"))
-    // const config = require(filepath("../config/Plugins.json"))
-    // if (config.pack1 != ""){
-        // require(filepath("../plugins/"+config.pack1+"/pack.js"))
-    // }
-    // if (config.pack2 != ""){
-        // require(filepath("../plugins/"+config.pack2+"/pack.js"))    
-    // }
     
 })
