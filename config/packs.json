@@ -1,0 +1,5 @@
+{
+    "packs":[
+        { "folder": "tll", "type": "lua" }
+    ]
+}

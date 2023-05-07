@@ -1,0 +1,9 @@
+@import url("../../../public/style.css");
+
+html, body{
+    background-color: white;
+}
+
+.prgmBtn{
+    background-color: lightgray;
+}

@@ -34,4 +34,4 @@ function loop(num, func){
 
 window.loop = loop
 
-window.CbaseSupported = "1.0, 2.0"
+window.CbaseSupported = "1.0, 2.0, *"

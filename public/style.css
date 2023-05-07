@@ -1,1 +1,94 @@
 @import url("prism.css");
+
+html{
+    background-color: rgb(57, 57, 57);
+}
+
+body{
+    margin: 0;
+}
+
+.nav{
+    background-color: rgb(37, 37, 37);
+    width: 90px;
+    height: 94.3%;
+    display: inline-grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: top;
+    align-content: top;
+    gap: 10px;
+    grid-template-columns: 80px;
+    grid-template-rows: repeat(9, 80px [col-start]);
+}
+
+.navBtn{
+    background-color: rgb(68, 68, 68);
+    width: 80px;
+    height: 80px;
+    border-style: none;
+    margin: 5px;
+    /* margin-bottom: 5px; */
+}
+
+/* .navBtn:nth-child(1){
+    margin-top: 0;
+} */
+
+.navBtn:hover{
+    background-color: rgb(99, 99, 99);
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+
+.menuBar{
+
+    background-color: rgb(37, 37, 37);
+    width: 100%;
+    height: 50px;
+    display: flex;
+
+}
+
+.text_label{
+    background-color: transparent;
+    color: white;
+    border-style: none;
+    /* padding: 20px; */
+    font-size: larger;
+    width: 60px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.text_label:nth-child(4){
+    width: 85px;
+}
+
+.text_label:hover{
+    background-color: rgb(58, 58, 58);
+}
+
+.codeEditor{
+    
+}
+
+.fileTabsContainer{
+
+}
+
+.fileTabs{
+
+}
+
+.explorer{
+
+}
+
+.terminal{
+
+}

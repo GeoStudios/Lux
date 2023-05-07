@@ -4,7 +4,8 @@ const modules = {
     path:require("path"),
     fs:require("fs"),
     child_process:require("child_process"),
-    request:require("request")
+    request:require("request"),
+    luavmjs:require('lua.vm.js')
     
 }
 
@@ -20,5 +21,6 @@ window.getFilePath = getFilePath
 window.apiVer = "1.0"
 window.addEventListener("DOMContentLoaded", ()=>{
     require(filepath("../plugins/Super/pack.js"))
+    // require(filepath("../plugins/obscurus/pack.js"))
     
 })

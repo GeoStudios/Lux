@@ -20,6 +20,7 @@ function LoadNest(plug, nest){
 // window.LoadNest = LoadNest
 // window.LoadLib = LoadLib
 
+// LoadPlug("obscurus")
 LoadNest("Super", "MainLibs")
 LoadNest("Super", "cbase")
 // LoadNest("Super", "styles")
