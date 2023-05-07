@@ -1,6 +1,0 @@
-{
-    "imports":[
-        "obscurus/lib/os.lua",
-        "obscurus/lib/lux.lua"
-    ]
-}
