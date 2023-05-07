@@ -1,7 +1,6 @@
 {
     "imports":[
-        "plugins/obscurus/lib/os.lua",
-        "plugins/obscurus/lib/lux.lua",
-        "plugins/test/tate"
+        "obscurus/lib/os.lua",
+        "obscurus/lib/lux.lua"
     ]
 }
