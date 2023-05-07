@@ -20,7 +20,7 @@ function getFilePath(file2, currentFile){
 window.getFilePath = getFilePath
 window.apiVer = "1.0"
 window.addEventListener("DOMContentLoaded", ()=>{
-    require(filepath("../plugins/Super/pack.js"))
+    require(filepath("../plugins/obscurus/pack.js"))
     // require(filepath("../plugins/obscurus/pack.js"))
     
 })

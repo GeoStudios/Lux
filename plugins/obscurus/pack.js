@@ -13,4 +13,10 @@
 // console.log(whole);
 // l.execute(whole)
 
+function LoadNest(plug, nest){
+    return loadItem(getFilePath("../"+plug+"/sub/"+nest+".js", __filename))  
+}
+
+LoadNest("Super", "MainLibs")
+LoadNest("Super", "cbase")
 LoadNest("obscurus", "xpack")

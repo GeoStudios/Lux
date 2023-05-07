@@ -1,5 +1,6 @@
 {
     "packs":[
-        { "folder": "test", "type": "lua" }
+        { "folder": "test", "type": "lua" },
+        { "folder": "test", "type": "js" }
     ]
 }
