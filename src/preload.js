@@ -22,5 +22,20 @@ window.apiVer = "1.0"
 window.addEventListener("DOMContentLoaded", ()=>{
     require(filepath("../plugins/obscurus/pack.js"))
     // require(filepath("../plugins/obscurus/pack.js"))
+
+    const HLJS = require('highlight.js');
+    let CF = document.getElementById("CurrentFile")
+    let HC = document.getElementById("Code")
+    CF.addEventListener("input", ()=>{
+        const code = CF.value
+        html = HLJS.highlightAuto(code).value
+        HC.innerHTML = html + `\n\n\n\n\n\n\n\n\n\n`
+        // console.log(html)
+    })
+
+    CF.addEventListener("scroll", ()=>{
+        HC.scrollTop = CF.scrollTop
+        HC.scrollLeft = CF.scrollLeft
+    })
     
 })

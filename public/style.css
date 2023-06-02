@@ -1,11 +1,28 @@
-@import url("prism.css");
-
 html{
     background-color: rgb(57, 57, 57);
 }
 
 body{
     margin: 0;
+    overflow: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 20px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
 }
 
 .nav{
@@ -86,6 +103,35 @@ body{
     height: 100%;
     background-color: rgb(84, 84, 84);
     color: white;
+    position: absolute;
+    overflow: auto;
+}
+
+#CurrentFile{
+    z-index: 1;
+    color: transparent;
+    background-color: transparent;
+    height: 105%;
+    white-space: nowrap;
+    width: 104%;
+
+}
+.textEditor{
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 20pt;
+    font-size: 15pt;
+    margin: 10px;
+    padding: 10px;
+    border: 0;
+    resize: none;
+    outline:0px none transparent;
+}
+
+#code{
+    z-index: 0;
+    overflow: hidden;
 
 }
 
